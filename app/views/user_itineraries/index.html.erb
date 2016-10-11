@@ -1,0 +1,27 @@
+<p id="notice"><%= notice %></p>
+
+<h1>User Itineraries</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Belongs to</th>
+      <th>Belongs to</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @user_itineraries.each do |user_itinerary| %>
+      <tr>
+        <td><%= link_to 'Show', user_itinerary %></td>
+        <td><%= link_to 'Edit', edit_user_itinerary_path(user_itinerary) %></td>
+        <td><%= link_to 'Destroy', user_itinerary, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New User Itinerary', new_user_itinerary_path %>

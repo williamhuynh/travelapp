@@ -1,0 +1,68 @@
+<div class="jumbotron text-center">
+	<h1>Where will your next adventure take you?</h1>
+	<p>We have built 2000+ itineraries world wide</p>
+</div>
+
+<div class="container">
+	<div class="row text-center">
+		<%= simple_form_for :search do |f| %>
+			<%= f.input :searchparams, label: "Find your next adventure"%>
+			<%= f.button :submit, value: "Search" %>
+		<% end %>
+	</div>
+	<hr>
+	<div class = "row text-center">
+		<h2> Popular Itineraries </h2>
+	</div>
+	<div class = "row">
+		<div class = col-sm-4>
+			<h3>South East Asia</h3>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+     		<p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+		</div>
+		<div class = col-sm-4>
+			<h3>Europe</h3>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+     		<p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+		</div>
+		<div class = col-sm-4>
+			<h3>America</h3>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+     		<p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+		</div>
+	</div>
+	<div class = "row">
+		<div class = col-sm-4>
+			<h3>Jupiter</h3>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+     		<p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+		</div>
+		<div class = col-sm-4>
+			<h3>Mars</h3>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+     		<p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+		</div>
+		<div class = col-sm-4>
+			<h3>Moon</h3>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+     		<p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+		</div>
+	</div>
+	<div class = "row">
+		<div class = col-sm-4>
+			<h3>Pluto</h3>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+     		<p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+		</div>
+		<div class = col-sm-4>
+			<h3>Neptune</h3>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+     		<p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+		</div>
+		<div class = col-sm-4>
+			<h3>Saturn</h3>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+     		<p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+		</div>
+	</div>
+</div>

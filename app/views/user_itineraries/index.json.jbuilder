@@ -1,0 +1,1 @@
+json.array! @user_itineraries, partial: 'user_itineraries/user_itinerary', as: :user_itinerary
